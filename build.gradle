@@ -26,18 +26,9 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-task copyYamlFiles(type: Copy) {
+task copySettingFiles(type: Copy) {
     copy {
         from './config'
-        include '*.yml'
         into './src/test/resources'
-    }
-}
-
-task copySqlFiles(type: Copy) {
-    copy {
-        from './config'
-        include '*.sql'
-        into './src/main/resources'
     }
 }
