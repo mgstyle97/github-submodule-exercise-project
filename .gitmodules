@@ -1,0 +1,4 @@
+[submodule "config"]
+	path = config
+	url = git@github.com:mgstyle97/github-submodule-config-files.git
+	branch = main
