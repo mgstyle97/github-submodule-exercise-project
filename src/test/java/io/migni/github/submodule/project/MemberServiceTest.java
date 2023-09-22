@@ -22,7 +22,7 @@ class MemberServiceTest {
     @Mock
     private MemberRepository memberRepository;
 
-    private Member member = mock();
+    private final Member member = mock();
 
     @DisplayName("테스트: 사용자 생성")
     @Test
